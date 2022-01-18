@@ -1,7 +1,7 @@
 import React from "react";
 
 import Navbar from "./components/Navbar";
-import Main from "./components/Main";
+import MainContainer from "./components/MainContainer";
 
 import "./styles.css";
 
@@ -9,7 +9,7 @@ function App() {
     return (
         <div className="container">
             <Navbar />
-            <Main />
+            <MainContainer />
         </div>
     );
 }

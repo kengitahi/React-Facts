@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+.nav {
+  background-color: #21222a;
+  display: flex;
+  align-items: center;
+  padding: 40px 30px 30px 30px;
+  height: 91px;
+}
+
+.nav img {
+  height: 40px;
+  width: 40px;
+}
+
+.nav h3 {
+  margin-right: auto;
+  margin-left: 10px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #61dafb;
+}
+
+.nav h4 {
+  color: #deebf8;
+  justify-self: end;
+  font-size: 16px;
+  font-weight: 16px;
+}
